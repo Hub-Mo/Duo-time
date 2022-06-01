@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+header {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-image: url("image/KlaridasFace.png");
+  height: 31rem;
+  width: 20rem;
+  background-attachment: fixed;
+  background-position: 80% top;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+header #header-name {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+header #header-name h1 {
+  background: rgba(244, 233, 233, 0.5);
+}
+header #header-name p {
+  background: rgba(244, 233, 233, 0.5);
+  padding: 1rem;
+}
+
+main {
+  margin-top: -5rem;
+  border-radius: 0 0 10% 10%;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  background: rgb(55, 211, 159);
+  padding: 15rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+main #fav {
+  color: black;
+  background: rgba(244, 233, 233, 0.5);
+  padding: 0.5rem;
+  max-width: 20rem;
+  min-width: 20rem;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main #fav .fav-articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+main #fav .fav-articles p {
+  margin: 1rem;
+}
+main #pics {
+  margin: 1rem 0;
+  background: rgba(244, 233, 233, 0.5);
+  padding: 0.5rem;
+  max-width: 20rem;
+  min-width: 20rem;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #pics img {
+  width: 15rem;
+}
+
+#challange {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#challange h3 {
+  margin: 3rem;
+}
+#challange p {
+  margin: 1rem;
+}
+#challange #box {
+  height: 20rem;
+  width: 95%;
+  border: 1px solid white;
+}
+#challange #box #ball {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50px;
+  border: 3px solid yellow;
+  background: conic-gradient(yellow 90deg, black 90deg 180deg, yellow 180deg 270deg, black 270deg 360deg);
+}
+
+@media screen and (max-width: 558px) {
+  main {
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
