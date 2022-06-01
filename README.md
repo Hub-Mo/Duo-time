@@ -2,6 +2,11 @@
 
 ## Klarida Likoj
 
+### [check it out](https://hub-mo.github.io/Duo-time/)
+
+<br>
+<br>
+
 * [x] it's responsive
 * [x] it has a title
 * [x] it has a favicon

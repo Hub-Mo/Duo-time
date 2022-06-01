@@ -112,6 +112,7 @@ main #pics img {
 @media screen and (max-width: 558px) {
   main {
     clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+    border-radius: 0 0 50px 50px;
   }
 }
 
