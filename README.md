@@ -6,6 +6,11 @@
 
 <br>
 <br>
+or scan the following qr code.
+<br>
+<br>
+
+![Qrcode](/image/qrcode_hub-mo.github.io.png)
 
 * [x] it's responsive
 * [x] it has a title
@@ -19,5 +24,6 @@
 * [x] their name as a big header
 * [x] 3 words describing this person
 * [x] a challenge box
+* [x] add QR code
 
 
